@@ -1,4 +1,4 @@
-let score =33
+/*let score =33
 console.log(typeof(score))
 
 let score2="33"
@@ -21,7 +21,7 @@ console.log(convertNull) // 0
 let score5=undefined //ye khud he ek type hai
 console.log(typeof(score5)) 
 let convertUndefined=Number(score5)
-console.log(convertUndefined)
+console.log(convertUndefined) */
 
 // true convert hota hai 1 me 
 // false convert hota hai 0 me 
@@ -29,3 +29,32 @@ console.log(convertUndefined)
 
 //boolean conversion me 1 convert hota hai true me aur koi string nhr convert hota hai boolean me bur empty space or 0 par false me convert ho jata hai 
 
+
+//***********************************operation********************************* */
+let value = 3
+let negValue=-value
+//console.log(negValue)
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2/2);
+//console.log(2%2);
+//console.log(2**2); // ye sab basic maths operations hai 
+
+let str1="hello"
+let str2="debu"
+console.log(str1+str2);// normal hai basic hai dikat niche hoga 
+
+console.log(1+"1");
+console.log("1"+1);
+console.log(1+2+"3");
+console.log("1"+2+3);// baat itna dhyan me rakhna hai ki agar 1st wala number hai toh pehle subko ad karega phir jo str hai usko jod dega aur agar pehle he ek str hai toh subko jod dega 
+
+console.log(true);
+console.log(+true); //ye true print nhikarega yw 1 print karega  
+//console.log(true+);// error dega
+
+let gameCounter=100
+gameCounter++;
+++gameCounter;
+console.log(gameCounter);//postfix ho ya prefix dono me nadhega (in this case )
